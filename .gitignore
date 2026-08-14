@@ -1,5 +1,11 @@
-# Build directories (build/, build-asan/, etc.)
-build*/
+# Build directory (build/native/, etc. -- see README for the convention)
+build/
+
+# Local scratch design notes -- not committed
+TODO.md
+
+# Python bytecode cache (from running tasks.py)
+__pycache__/
 
 # Prerequisites
 *.d
